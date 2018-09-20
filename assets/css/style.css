@@ -4,7 +4,7 @@ body { background-image: url(../images/full-bloom/full-bloom.png) }
 
 footer { position: sticky; top: 100%; }
 
-p, li, footer {
+p, li, footer, label, .form-control {
     font-family: 'Short Stack', cursive;
 }
 
