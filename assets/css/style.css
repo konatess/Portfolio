@@ -1,0 +1,12 @@
+html, body { height: 100%; }
+
+body { background-image: url(../images/full-bloom/full-bloom.png) }
+
+footer { position: sticky; top: 100%; }
+
+.container { background-color: #ffffff8e}
+
+.bg-turquoise { background-color: #4aaaa5 }
+
+.bg-lavendar { background-color: #d2b8fd98 }
+
