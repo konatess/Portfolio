@@ -4,11 +4,13 @@ body { background-image: url(../images/full-bloom/full-bloom.png) }
 
 footer { position: sticky; top: 100%; }
 
-p, li, footer, label, .form-control {
+a, p, li, footer, label, .form-control {
     font-family: 'Short Stack', cursive;
 }
 
-a, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 { color: #4aaaa5; }
+
+.nav-item, h1, h2, h3, h4, h5, h6 {
     /* font-family: 'Spirax', cursive; */
     font-family: 'Berkshire Swash', cursive;
     /* font-family: 'Rochester', cursive; */
@@ -22,9 +24,25 @@ a, h1, h2, h3, h4, h5, h6 {
 
 a { font-size: 1.2em; }
 
-.container { background-color: #ffffff8e}
+.container { background-color: #ffffff8e; }
 
-.bg-turquoise { background-color: #4aaaa5 }
+.bg-turquoise { background-color: #4aaaa5; }
 
-.bg-lavendar { background-color: #d2b8fd98 }
+.bg-lavendar { background-color: #d2b8fd98; }
 
+.gallery {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.card-img {
+    object-fit: cover;
+}
+
+.caption {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+}
