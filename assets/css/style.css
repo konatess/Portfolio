@@ -4,6 +4,24 @@ body { background-image: url(../images/full-bloom/full-bloom.png) }
 
 footer { position: sticky; top: 100%; }
 
+p, li, footer {
+    font-family: 'Short Stack', cursive;
+}
+
+a, h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Spirax', cursive; */
+    font-family: 'Berkshire Swash', cursive;
+    /* font-family: 'Rochester', cursive; */
+}
+.navbar-brand {
+    font-family: 'Spirax', cursive;
+    /* font-family: 'Berkshire Swash', cursive; */
+    /* font-family: 'Rochester', cursive; */
+    font-size: 2em;
+}
+
+a { font-size: 1.2em; }
+
 .container { background-color: #ffffff8e}
 
 .bg-turquoise { background-color: #4aaaa5 }
