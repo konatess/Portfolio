@@ -11,14 +11,10 @@ a, p, li, footer, label, .form-control {
 h1, h2, h3, h4, h5, h6 { color: #4aaaa5; }
 
 .nav-item, h1, h2, h3, h4, h5, h6 {
-    /* font-family: 'Spirax', cursive; */
     font-family: 'Berkshire Swash', cursive;
-    /* font-family: 'Rochester', cursive; */
 }
 .navbar-brand {
     font-family: 'Spirax', cursive;
-    /* font-family: 'Berkshire Swash', cursive; */
-    /* font-family: 'Rochester', cursive; */
     font-size: 2em;
 }
 
@@ -26,7 +22,7 @@ a { font-size: 1.2em; }
 
 .container { background-color: #ffffff8e; }
 
-.bg-turquoise { background-color: #4aaaa5; }
+.bg-turquoise { background-color: #109ba0; }
 
 .bg-lavendar { background-color: #d2b8fd98; }
 
