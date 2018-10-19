@@ -8,37 +8,49 @@ a, p, li, footer, label, .form-control {
     font-family: 'Short Stack', cursive;
 }
 
-h1, h2, h3, h4, h5, h6 { color: #4aaaa5; }
+h1, h2, h3, h4, h5, h6 { color: #04a78e; }
 
-.nav-item, h1, h2, h3, h4, h5, h6 {
+.nav-link, h1, h2, h3, h4, h5, h6 {
     font-family: 'Berkshire Swash', cursive;
 }
 .navbar-brand {
     font-family: 'Spirax', cursive;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 a { font-size: 1.2em; }
 
-.container { background-color: #ffffff8e; }
+.container { background-color: #ffffffcc; }
 
-.bg-turquoise { background-color: #109ba0; }
+.bg-turquoise { background-color: #04a78e; }
 
-.bg-lavendar { background-color: #d2b8fd98; }
+.bg-lavendar { background-color: #cca8f798; }
 
 .gallery {
-    width: 300px;
-    height: 300px;
+    /* this height and padding keeps the .gallery items square without disrupting their responsiveness */
+    height: 0;
+    padding-bottom: 100%;
     overflow: hidden;
+    border: solid 1px #04a78e;
+}
+
+.gallery:hover {
+    border: solid 4px #04a78e;
 }
 
 .card-img {
     object-fit: cover;
+    min-width: 100%;
+}
+
+.card-text {
+    /* keep text from breaking words, which is auto in bootstrap */
+    overflow-wrap: normal;
 }
 
 .caption {
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 0;
     width: 100%;
 }
