@@ -31,11 +31,11 @@ a { font-size: 1.2em; }
     height: 0;
     padding-bottom: 100%;
     overflow: hidden;
-    border: solid 1px #04a78e;
+    border: solid 2px #e8e8e8;
 }
 
 .gallery:hover {
-    border: solid 4px #04a78e;
+    border: solid 2px #04a78e;
 }
 
 .card-img {
