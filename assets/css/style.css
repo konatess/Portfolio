@@ -18,7 +18,9 @@ h1, h2, h3, h4, h5, h6 { color: #04a78e; }
     font-size: 1.8em;
 }
 
-a { font-size: 1.2em; }
+.nav-link {
+    font-size: 1.2em;
+}
 
 .container { background-color: #ffffffcc; }
 
@@ -53,4 +55,25 @@ a { font-size: 1.2em; }
     top: 75%;
     left: 0;
     width: 100%;
+}
+
+.bio-text {
+    font-size: 1.2em;
+    border: 5px dotted #cca8f798;
+    border-radius: 30px;
+}
+
+.hover-summary {
+    position: absolute;
+    color: #00000000
+}
+
+.hover-summary:hover {
+    background-color: #cca8f7dd;
+    color: #000000;
+}
+
+.project-thumbnail {
+    overflow: hidden;
+    border: solid 2px #04a78e;
 }
